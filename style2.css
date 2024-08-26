@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #f8f8f8;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.header-top div {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px; /* ロゴの高さを調整 */
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.main-visual {
+    width: 100%;
+    height: 300px;
+    background-image: url('ITHAIKEI.jpg'); /* 画像のパスを設定 */
+    background-size: cover; /* 画像を全体に表示 */
+    background-position: center; /* 画像の位置を中央に */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+}
+
+.main-visual .logo-text {
+    font-size: 6em;
+    font-weight: bold;
+    color: white; /* テキストを白に */
+}
+
+.main-visual .sub-text {
+    font-size: 2em;
+    margin-top: 10px;
+    color: white; /* テキストを白に */
+}
+
+.news, .efforts, .banner-ads {
+    padding: 20px;
+    background-color: #f1f1f1;
+    margin: 20px 0;
+}
+
+.news {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-item {
+    flex: 1;
+    margin-right: 20px;
+    background-color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.news-item:last-child {
+    margin-right: 0;
+}
+
+.banner-ads {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.banner-ads .banner-ad {
+    flex: 1;
+    margin-right: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    width: 728px;
+    height: 90px;
+}
+
+.banner-ads .banner-ad img {
+    max-width: 100%;
+    height: auto;
+}
+
+.banner-ads .banner-ad:last-child {
+    margin-right: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+footer div {
+    width: 20%;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-logo img {
+    height: 40px; /* フッターのロゴの高さを調整 */
+}

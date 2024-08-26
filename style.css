@@ -127,6 +127,18 @@ article h2 {
     margin-top: 10px;
 }
 
+/* ボタンのスタイル */
+.button {
+    background-color: #f70101;  /* 赤い色 */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
 .image-container {
     width: 100%;
     max-width: 800px;

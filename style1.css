@@ -1,0 +1,125 @@
+/* 画像1, 2, のサイズ */
+.banner1-image {
+    width: 468px;
+    height: 60px;
+    object-fit: cover;
+}
+.banner2-image {
+    width: 728px;
+    height: 90px;
+    object-fit: cover;
+}
+.banner3-image {
+    width: 336px;
+    height: 280px;
+    object-fit: cover;
+}
+.banner4-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.banner5-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* 画像4 (バナー広告) のサイズ */
+.ad-image {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    
+}
+
+/* その他の既存のスタイル */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+    background-color: #f5f5f5;
+}
+
+.banner-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.banner {
+    background-color: #fff;
+    padding: 1em;
+    border: 1px solid #ddd;
+    flex: 1 1 calc(33.333% - 2em);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* 追加: バナー広告のスタイル */
+.ad-banner {
+    position: fixed;
+    bottom: -100%;
+    right: 20px;
+    width: 300px;
+    padding: 1em;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: bottom 0.5s ease-in-out;
+}
+
+.ad-banner img {
+    width: 100%;
+    height: auto;
+}
+
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: #fff;
+}
+/* 変更: 閉じるボタンのスタイル */
+.close-btn {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #000;
+    z-index: 1000;
+}
+
