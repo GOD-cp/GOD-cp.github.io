@@ -152,6 +152,8 @@ article h2 {
     display: block;
 }
 
+
+
 .image-caption {
     font-size: 1.2rem;
     color: #333;
@@ -174,3 +176,73 @@ footer {
     padding: 10px 0;
     margin-top: 20px;
 }
+/* 画像の共通スタイル */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* ヘッダーの画像 */
+.header-image1 {
+    width: 300px;
+    height: auto;
+    display: block;
+    float: right;
+    margin: 0px -300px;
+}
+
+.header-image2 {
+    width: 300px;
+    height: auto;
+    display: block;
+    float: left;
+    margin: 0px -300px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ナビゲーションの下の画像 */
+.nav-image {
+    width: 728px;
+    height: 140px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* キャプションの下の画像 */
+.caption-image1{
+    width: 728px;
+    height: 140px;
+    display: block;
+    float: center;
+    margin: 0px auto;
+}
+.caption-image2{
+    width: 250px;
+    height: 600px;
+    display: block;
+    float: right;
+    margin: 20px -300px;
+}
+.caption-image3{
+    width: 250px;
+    height: 600px;
+    display: block;
+    float: left;
+    margin: 20px -300px;
+}
+
+/* ブログ記事の下の画像 */
+.blog-image {
+    width: 728px;
+    height: 140px;
+    display: block;
+    margin: 20px auto;
+}
+
